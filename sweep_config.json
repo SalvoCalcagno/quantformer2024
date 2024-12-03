@@ -1,0 +1,22 @@
+{
+    "method": "grid", 
+    "name": "SwEEP NAME", 
+    "metric": {
+        "goal": "minimize", 
+        "name": "train/loss"
+    },
+    "parameters": {
+        "dataset": {"value": "allen_singlestimulus"},
+        "container_id": {"values": ["511507650", "511510667", "511510675", "511510699", "511510718", "511510779", "511510855", "511510989", "526481129", "536323956", "543677425"]},
+        "stimulus": {"value": "drifting_gratings"},
+        "model": {"value": "crossformer"},
+        "d_model": {"value": 32},
+        "no_valid": {"value": true},
+        "lr": {"value": 0.0001},
+        "batch_size": {"value": 128},
+        "epochs": {"value": 250},
+        "labels_format": {"value": "tsai_wen"},
+        "trace_format": {"value": "corrected_fluorescence_dff"},
+        "window_size": {"values": [160]}
+    }
+}
