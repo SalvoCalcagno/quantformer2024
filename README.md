@@ -1,11 +1,11 @@
 <div align="center">
 
-# QuantFormer: Learning to quantize for neural activity forecasting in mice vision systems
+# QuantFormer: Learning to quantize for neural activity forecasting in mice visual cortex
 
 </div>
 
 # Overview
-Official PyTorch implementation of paper: <b>"QuantFormer: Learning to quantize for neural activity forecasting in mice vision systems"</b>
+Official PyTorch implementation of paper: <b>"QuantFormer: Learning to quantize for neural activity forecasting in mice visual cortex"</b>
 
 # Abstract
 Understanding complex animal behaviors hinges on deciphering the neural activity patterns within brain circuits, making the ability to forecast neural activity crucial for developing predictive models of brain dynamics. This capability holds immense value for neuroscience, particularly in applications such as real-time optogenetic interventions. While traditional encoding and decoding methods have been used to map external variables to neural activity and vice versa, they focus on interpreting past data. In contrast, neural forecasting aims to predict future neural activity, presenting a unique and challenging task due to the spatiotemporal sparsity and complex dependencies of neural signals.
